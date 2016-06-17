@@ -23,6 +23,7 @@ typedef enum {
   tok_SPHERE,
   tok_BOX,
   tok_TRIANGLE,
+  tok_CYLINDER,
   tok_POSITION,
   tok_FILM,
   tok_GRID,
