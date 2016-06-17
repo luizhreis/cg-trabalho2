@@ -22,7 +22,7 @@ Intersection Esfera::Intercepta(const Raio& r_vis, IntersectionMode mode, float 
 
   // montando a equação do 2º grau at2 + bt + c = 0
   a = r_vis.Direcao().produtoEscalar(r_vis.Direcao());
-  b = 2*(r_vis.Direcao().produtoEscalar( K ));
+  b = 2*(r_vis.Direcao().produtoEscalar(K));
   c = K.produtoEscalar(K) - raio*raio;
 
   delta = b*b - 4*a*c;
